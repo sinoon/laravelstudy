@@ -1,0 +1,13 @@
+随着电子商务的不断发展，网上购物已经成为了一种潮流！它既减少了商家
+的销售成本，也节省了消费者的时间，深得大家的青睐。本系统将设计一个关于西博会
+纪念品销售的网上平台。本文首先介绍了网上购物系统开发的背景及意义，从西博文化
+公司的现状出发，分析了建设西博会购物网站的必要性。接下来，从实际出发，结合现
+有购物网站的现状，提出了本网站设计的目标和要求，进行了需求分析、网站功能分析
+和设计、数据库设计，并着重探讨了关键功能的实现思路。最后，对本次的设计做了总
+结，并提出了还需要改进的问题。 
+
+
+
+随着电子商务的发展，O2O电子商务模式越来越兴起。网上订餐系统就是这种商务模式的一种体现。现在我们校园周边有好多外卖，但是大部分还是采取电话订餐、人工手写记录等方式。网上订餐系统可以很好的解决这个问题，网络可以同时进行并发业务处理，从而避免了因为在同一时刻有多人打入电话无法接通而导致流失顾客的情况。网站使用国际使用非常多的Laravel框架进行开发，可以大大优化路由设置，简便的登录验证系统，晚上的数据库迁移功能，这些强大的功能组合在一起，更加快速和便捷的开发与完善系统。
+
+With the development of e-commerce, O2O growing rise of e-commerce model. Online reservation system is a manifestation of this business model. Now we have a lot of takeout around the campus, but most still take phone ordering, handwritten notes and other artificial methods. Online reservation system can solve this problem, the network can handle concurrent operations simultaneously, thus avoiding the situation because there are many people at the same time to enter the phone unable to connect and lead to the loss of customers. Website using very popular PHP framework -- Laravel , can greatly optimize the routing settings, simple login authentication system, database migration evening, these powerful features are combined to develop faster and more convenient and improve the system.

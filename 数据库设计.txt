@@ -1,0 +1,91 @@
+数据库设计
+顾客表
+customer
+		/**
+		 * 创建顾客表
+		 * table customer
+		 * userID,username,password,name,age,sex,mobile,phone,birthday,e-mail,addressID
+		 */
+userID 		顾客的ID
+username 	顾客用户名
+password	顾客密码
+name		顾客姓名
+age			顾客年龄
+sex			顾客性别
+mobile		顾客手机号码
+phone		顾客座机号码
+birthday	顾客生日
+e-mail		顾客邮箱地址
+
+餐厅表
+restaurant
+		/**
+		 * 创建餐厅表
+		 * restaurantID,username,password,restaurantname,addressID,mobile,phone,mapaddress
+		 */
+restaurantID	餐厅ID
+username		餐厅管理登录名
+password		餐厅管理登陆密码
+restaurantname	餐厅名称
+addressID 		餐厅地址ID
+mobile			餐厅手机
+phone			餐厅座机
+mapaddress		餐厅地图参数
+
+食品表
+food
+		/**
+		 * 创建视频表
+		 * foodID,name,belong(restaurantID),price,img,describe,taste,species,cuisine
+		 */
+foodID		食品ID
+name		食品名称
+belong		属于哪家餐厅
+price		价格
+img			食品配图地址
+describe	食品描述
+taste		口味（辣，微辣，之类）
+species		属于哪种（盖饭，拉面，之类）
+cuisine		菜系
+
+交易记录表
+transaction
+		/**
+		 * 交易记录表
+		 * transactionID,dealnumber,foodID,addressID,status
+		 */
+transactionID		订单号
+foodID				食品ID
+dealnumber			交易数量
+addressID			送餐地址
+status				交易状态
+
+地址表
+address
+		/**
+		 * 创建地址表
+		 * addressID,userID,content
+		 */
+addressID		地址ID
+userID			属于哪个用户的ID
+content			地址内容
+
+评价表
+comment
+		/**
+		 * 创建评论表
+		 * commentID,foodID,content,rank,attitude,sanitary,speed,tasty
+		 */
+commentID		评价ID
+foodID			被评价的食品ID
+content			评价内容
+rank			打分
+attitude		服务态度评价
+sanitary		卫生水平评价
+speed			送餐速度评价
+tasty			食品口味评价
+
+积分的计算可以直接在数据库里写函数，评价规则也在数据库里写，对应等级在站点后台里管理。
+
+视图
+待补充
